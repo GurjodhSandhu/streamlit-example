@@ -12,3 +12,15 @@ forums](https://discuss.streamlit.io).
 
 In the meantime, below is an example of what you can do with just a few lines of code:
 """
+
+def login():
+    username = input("Username: ")
+    password = input("Password: ")
+
+    # You can replace the condition with your own authentication logic
+    if username == "admin" and password == "password":
+        print("Login successful!")
+    else:
+        print("Invalid credentials.")
+
+login()
